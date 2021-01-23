@@ -1,0 +1,12 @@
+main: io.github.spikey84.spikeytag.Main
+version: 1.0
+name: SpikeyTag
+api-version: 1.13
+depend: [GlowAPI]
+commands:
+  jointag:
+    description: Joins the tag game.
+    usage: /jointag
+  leavetag:
+    description: Leaves the tag game.
+    usage: /leavetag
